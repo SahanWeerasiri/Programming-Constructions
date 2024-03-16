@@ -1,0 +1,93 @@
+You have been asked to develop a system to improve the prediction of weather in Sri Lanka by collecting rainfall data.
+
+The idea is for individuals to record the starting time of any rain event along with the location given as GPS data, the ending time of the same rain event and location data, and amount of observed rain in a scale as Heavy rain, Upper high intensity, Lower high intensity, Higher low intensity, Upper low intensity, Light rain.
+
+This collected data will be sent to a database server for creating dataset that can be used in a ML/AI software product.
+
+
+
+requirmrnts analysis
+function =>			collect data
+				upload data
+				maintain its accuracy at 100%
+				
+
+behaviour =>			motive and remind people to do this
+				after that it is very simple to collect and manupulate data
+
+
+non functional aspects =>	make it easy to be use
+				less data consumption
+				less battery consumption
+				keep people with it
+				
+				give daily motivational advices, about thruthfulness (because wee need thruthful data)
+
+				
+				
+				
+
+
+
+
+
+
+
+requirments specification
+
+collect data => ("record the starting time of any rain event along with the location given as GPS data, the ending time of the same rain event and location 						data, and amount of 		observed rain in a scale as Heavy rain, Upper high intensity, Lower high intensity, Higher low intensity, Upper low 					intensity, Light rain")
+
+		do not be a manze to users, just use users only as cameras, do other things inside it
+
+		if people to forget it, give them chance to add that data manually
+
+		before save to phone ask to verify it
+
+		
+
+upload data =>	maintain a more secure, managed, clear, clean db
+		 
+maintain its accuracy=> good interaction with people and notify them without being a manaze (give him a suggestion time in order to notify him to close the recording,"not to close it,just 			to remind them")
+				
+easy=> 		ui, less inputs from the user
+
+battery=>	just use notification system, and gps
+		if it is possible, open gps automatically when software open and close it when closed
+
+db=>    	much better to use real time db, but there can be signal problems during rainy situation, so one day data will be saved in the phone, at the end of the day if they enable 		internet connection ,only then upload data as quikly and notify him that becuse if he didn't know that the data has being uploading, our work is done half
+
+		or we can check keep two data slots one for "to upload" and "prevousely upload batch" then before upload new thing check old things are in the db and verify it after that 		upload new things, if old things didn't upload , then upload them first and keep them in that slot to verify in next time data on
+
+keep people with it=>	give somthing, motivation to use it, video player or photo editor or meme app or somthing like that.
+			game is not a good idea, the will add wrong data into db for cheat,
+
+			agricultural app combined with this maybe good
+				news, new methods, seminars, workshop details, rainfall data collector
+
+
+how about people's truthfulness??????????????
+			
+
+
+System design
+
+
+
+
+
+
+
+
+software requirments specification
+
+
+
+
+
+
+
+architecture
+
+implementation, test
+
+develop
